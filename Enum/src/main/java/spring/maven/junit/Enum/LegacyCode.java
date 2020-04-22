@@ -10,4 +10,13 @@ public class LegacyCode {
             return "0";
         }
     }
+    
+    public boolean StringToBoolean(String value) {
+        
+        if ("Y".equals(value)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
